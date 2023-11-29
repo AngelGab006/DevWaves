@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB Demi Bold'), url('../font//BRLNSDB/BRLNSDB.woff') format('woff');
+}
+@font-face {
+    font-family: 'Poppins';
+    src:    url('../font/Poppins/Poppins-Black.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-BlackItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Bold.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-BoldItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-ExtraBold.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-ExtraBoldItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-ExtraLight.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-ExtraLightItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Italic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Light.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-LightItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Medium.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-MediumItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Regular.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-SemiBold.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-SemiBoldItalic.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-Thin.ttf') format('ttf'),
+            url('../font/Poppins/Poppins-ThinItalic.ttf') format('ttf');
+}
+/* color: rgb(41, 183, 239); */
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Berlin Sans FB Demi Bold';
+}
+nav{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.019);
+}
+#nav-content{
+    display: flex;
+    width: auto;
+    height: 50px;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 50px 0 50px;
+}
+#imglogo{
+    width: 50px;
+}
+#logo{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.nav-button {
+    user-select: none;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    transition: all 0.5s ease;
+}
+.nav-button:hover{
+    background-color: rgb(41, 183, 239);
+}
+@keyframes hr-animation {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 94.5%;
+    }
+}
+#border-nav{
+    padding: 0;
+    margin: 0px 35px 0 35px;
+    animation: 3s ease;
+}
