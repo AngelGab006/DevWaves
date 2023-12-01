@@ -1,0 +1,95 @@
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 280px;
+    min-height: 50%;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.31);
+    --main-color:rgb(41, 183, 239);
+    --second-color:rgb(21, 141, 189);
+    --third-color:rgb(33, 64, 93);
+    --four-color:rgb(20, 42, 65);
+}
+.span{
+    width: 250px;
+    color: black;
+}
+.right-txt{
+    width: 250px;
+}
+.cards .title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.cards .span-card{
+    font-size: 25px;
+}
+.cards .min-span{
+    font-size: 15px;
+}
+.icon-card{
+    width: 70px;
+}
+li{
+    margin: 10px; 
+}
+.card-btn{
+    font-family: 'Berlin Sans FB Demi Bold';
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#card-slow .card-btn{
+    background-color: var(--main-color);
+}
+#card-slow .card-btn:hover{
+    background-color: var(--second-color);
+}
+#card-slow .card-btn:active{
+    background-color: var(--third-color);
+}
+#card-slow .min-span{
+    color: var(--main-color);
+}
+
+#card-raging .card-btn{
+    background-color: var(--second-color);
+}
+#card-raging .card-btn:hover{
+    background-color: var(--third-color);
+}
+#card-raging .card-btn:active{
+    background-color: var(--four-color);
+}
+#card-raging .min-span{
+    color: var(--second-color);
+}
+
+#card-tsunami .card-btn{
+    background-color: var(--third-color);
+}
+#card-tsunami .card-btn:hover{
+    background-color: var(--four-color);
+}
+#card-tsunami .card-btn:active{
+    background-color: black;
+}
+#card-tsunami .min-span{
+    color: var(--third-color);
+}
+#third-content .right-txt{
+    color: white;
+}
+#third-content .right-txt .span{
+    color: white;
+}

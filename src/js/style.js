@@ -1,4 +1,5 @@
 const hr = document.getElementById('border-nav');
+const spanAnimated = document.getElementById('animated-span');
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
@@ -10,10 +11,18 @@ function isInViewport(element) {
 }
 document.addEventListener('scroll', ()=>{
     if(isInViewport(hr)) {
-        hr.style.animationName = 'hr-animation'
-        hr.style.width = '94.5%'
+        hr.style.animationName = 'hr-animation';
+        hr.style.width = '94.5%';
     } else {
-        hr.style.animationName = ''
-        hr.style.width = '0px'
+        hr.style.animationName = '';
+        hr.style.width = '0px';
     }  
 })
+setInterval(() =>{
+    spanAnimated.style.width = '0ch';
+    spanAnimated.style.cssText = 'animation: ';
+    setTimeout(()=>{
+        spanAnimated.style.width = '0ch';
+    spanAnimated.style.cssText = 'animation: typing 2s steps(16) , blink .5s infinite step-end alternate;';
+    },100)
+},3200)

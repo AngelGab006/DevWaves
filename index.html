@@ -5,20 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="shortcut icon" href="./src/img/icons/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/card.css">
+    <link rel="stylesheet" href="./src/css/menu-togle.css">
     <title>DevWaves</title>
 </head>
 <body>
-    <nav>
+    <nav id="normal-nav">
         <div id="nav-content">
             <div id="logo"><img id="imglogo" src="./src/img/icons/logo.png" alt="Logo"> <Label>DevWaves</Label></div>
-            <button id="Home" class="nav-button">Home</button>
-            <button id="About" class="nav-button">About</button>
-            <button id="Portfolio" class="nav-button">Portfolio</button>
-            <button id="Contact" class="nav-button">Contact</button>
-        </div>
-        <hr id="border-nav"/>
+            <button id="Home" class="nav-buttons">Home</button>
+            <button id="About" class="nav-buttons">About</button>
+            <button id="Portfolio" class="nav-buttons">Portfolio</button>
+            <button id="Contact" class="nav-buttons">Contact</button>
     </nav>
-    <div style="height: 10000px; width: 100%;"></div>
+    <hr id="border-nav"/>
+    <section id="head">
+        <img src="./src/img/icons/logo.png" alt="Logo">
+        <h1><span id="span-quotes">"</span>LET THE <span id="span-quotes">WAVES</span> DRAG THE DEVELOPERS TO YOU<span id="span-quotes">"</span></h1>
+    </section>
+    <section id="first-plan" class="plans">
+        <img id="first-wave" class="wave" src="./src/img/main-color-wave.png" alt="Blob">
+        <article id="first-article" class="plan-article">
+            <div id="first-content" class="content">
+                <div class="cards" id="card-slow">   
+                    <h2 class="title">Slow Waves</h2>
+                    <img class="icon-card" src="./src/img/slow-wave.png" alt="wave">
+                    <span class="span-card">$Free <span class="min-span">/mo</span></span>
+                    <ul>
+                        <li>
+                            access to the flow of waves
+                        </li>
+                        <li>
+                            4 free post in our waves
+                        </li>
+                        <li>
+                            free trial to hosting services
+                        </li>
+                    </ul>
+                    <button class="card-btn">Get it Now</button>
+                </div>
+                <div class="right-txt">
+                    <h2>This plan</h2>
+                    <span class="span">
+                        Allow you to enter the flow, and you can test for free 4 times..
+                    </span>
+                </div>
+            </div>
+            <img id="second-wave" class="wave" src="./src/img/second-color-wave.png" alt="Blob">
+        </article>
+    </section>
+    <section id="second-plan" class="plans">
+        <article id="second-article" class="plan-article">
+            <div id="second-content" class="content">
+                <div class="cards" id="card-raging">
+                    <h2 class="title">Raging Waves</h2>
+                    <img class="icon-card" src="./src/img/rage-waves.png" alt="wave">
+                    <span class="span-card">$8 <span class="min-span">/mo</span></span>
+                    <ul>
+                        <li>
+                            Premium access to our waves
+                        </li>
+                        <li>
+                            Unlimited free post in our waves
+                        </li>
+                        <li>
+                            Free 500mb hosting or discount for more than 500mb
+                        </li>
+                        <li>
+                            Free analytics and suggestion to your software
+                        </li>
+                    </ul>
+                    <button class="card-btn">Get it Now</button>
+                </div>
+                <div class="right-txt">
+                    <h2>This plan</h2>
+                    <span class="span">
+                        Gives you privilege in the flow, given preference against the other in your post, and more importantly access to hosting for half the price.
+                    </span>
+                </div>
+            </div>
+            <img id="third-wave" class="wave" src="./src/img/third-color-wave.png" alt="Blob">
+        </article>
+    </section>
+    <section id="third-plan" class="plans third">
+        <article id="third-article" class="plan-article">
+            <div id="third-content" class="content">
+                <div class="cards" id="card-tsunami">
+                    <h2 class="title">Tsunami</h2>
+                    <img class="icon-card" src="./src/img/tsunami.png" alt="wave">
+                    <span class="span-card">$13 <span class="min-span">/mo</span></span>
+                    <ul>
+                        <li>
+                            Premium access to our waves
+                        </li>
+                        <li>
+                            Unlimited free post in our waves
+                        </li>
+                        <li>
+                            Free 1500mb hosting or discount for more than 1500mb
+                        </li>
+                        <li>
+                            Free analytics, maintenance, and updating of your software
+                        </li>
+                        <li>
+                            15% of payback if your page doesn't reach a least of 300 viewer each week
+                        </li>
+                    </ul>
+                    <button class="card-btn">Get it Now</button>
+                </div>
+                <div class="right-txt">
+                    <h2>This plan</h2>
+                    <span class="span">
+                        the biggest preference in your post and free access to all functionalities
+                    </span>
+                </div>
+            </div>
+        </article>
+        <footer id="foot">
+            <span id="animated-span">Page in Progress</span>
+            <h6>alpha version</h6>
+        </footer>
+        <img id="foot-img" src="./src/img/footer.png" alt="foot-code-wave">
+    </section>
     <script src="./src/js/main.js"></script>
     <script src="./src/js/style.js"></script>
 </body>
