@@ -50,7 +50,14 @@ article{
     footer h6{
         font-size: 70% !important ;
     }
-    
+}
+@media screen and (width <= 400px) {
+    #logo img{
+        display: none;
+    }
+    #nav-content{
+        margin: 0 10px 0 10px!important;
+    }
 }
 #normal-nav{
     width: 100%;
